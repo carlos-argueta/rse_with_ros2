@@ -50,7 +50,7 @@ def play_video(video_path):
         elif key == ord('f'):
             transformation = "flip"
 
-        time.sleep(0.03)  # Slow down the video
+        time.sleep(0.05)  # Slow down the video
 
     cap.release()
     cv2.destroyAllWindows()
