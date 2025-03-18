@@ -1,0 +1,2 @@
+string class_name
+int32 count
