@@ -1,0 +1,12 @@
+# Goal definition
+geometry_msgs/Point[] waypoints      # List of waypoints to follow (x, y, z - z ignored)
+float32 linear_speed                # Desired linear speed (m/s)
+---
+# Result definition
+bool success                        # True if the path was completed successfully
+builtin_interfaces/Duration elapsed_time # Time taken to complete the path
+---
+# Feedback definition
+geometry_msgs/Pose current_pose     # Current position (x,y) and orientation (yaw/psi) of the robot
+geometry_msgs/Twist current_velocity # Current linear (x) and angular (z) velocities
+int32 current_waypoint_index        # Index of the waypoint currently being targeted
