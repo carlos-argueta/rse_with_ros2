@@ -1,0 +1,15 @@
+# Goal
+string video_path            # Path to the video file
+string class_name      # Class to find (e.g., 'person', 'car')
+int32 max_frames       # Maximum number of frames to process
+float32 confidence_threshold # Minimum confidence to consider an object found
+
+---
+# Result
+bool success           # True if object was found
+int32 frames_processed # Number of frames processed
+
+---
+# Feedback
+int32 frames_processed # Number of frames processed so far
+
