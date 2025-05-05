@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/carlos/ros2_ws/build/rse_fsd",
+        "/home/carlos/ros2_ws/install/rse_fsd/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/carlos/ros2_ws/build/rse_fsd",
+        "/home/carlos/ros2_ws/install/rse_fsd/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

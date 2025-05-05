@@ -1,0 +1,9 @@
+# rse_fsd/config/dashcam_params2.yaml
+
+# Parameters for the node named 'dashcam_node'
+dashcam_node:
+  # The special key 'ros__parameters' indicates the following are ROS parameters
+  ros__parameters:
+    display_resolution: 480    # Set resolution to 480p
+    show_detections: true     # Turn ON detection display
+    bbox_color: "green"       # Set bounding box color to green (quotes optional but good practice for strings)
