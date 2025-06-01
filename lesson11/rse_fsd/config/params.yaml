@@ -1,0 +1,9 @@
+dashcam_node:
+  ros__parameters:
+    display_resolution: 1080
+    show_detections: true
+    bbox_color: "blue"
+
+get_class_count_server:
+  ros__parameters:
+    skip_classes: ["person"]

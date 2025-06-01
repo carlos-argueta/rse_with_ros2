@@ -1,0 +1,5 @@
+# Parameters for the node named 'get_class_count_server'
+get_class_count_server:
+  # The special key 'ros__parameters' indicates the following are ROS parameters
+  ros__parameters:
+    skip_classes: ["car", "person"]  
